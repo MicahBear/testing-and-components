@@ -1,6 +1,6 @@
 let createCounter = (n)=>{
     return ()=>{
-        return n++
+        console.log(n++)
     }
 }
 module.exports = createCounter
