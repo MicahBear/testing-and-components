@@ -1,9 +1,9 @@
 let counter2 =  (init)=>{
     let currentCount = init
     return {
-        increment: ()=> currentCount+=1,
-        decrement: ()=> currentCount-=1,
-        reset: ()=> currentCount = init
+       increment: ()=> console.log(currentCount+=1),
+        decrement: ()=> console.log(currentCount-=1),
+        reset: ()=> console.log(currentCount = init)
     }
 }
 
