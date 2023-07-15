@@ -1,10 +1,10 @@
 const updateLight = (current)=>{
     if(current == 'green'){
-        return 'yellow'
+        console.log('yellow')
     }else if(current == 'yellow'){
-        return 'red'
+        console.log('red')
     }else{
-        return 'green'
+        console.log('green')
     }
 }
 
